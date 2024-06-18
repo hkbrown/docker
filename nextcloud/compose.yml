@@ -118,7 +118,6 @@ volumes:
 
 networks:
   proxy-tier:
-  default:
     ipam:
       config:
         - subnet: "172.29.0.2/16"
